@@ -1,0 +1,11 @@
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\kryan4\In Class Tutorials\Greetings3\Greetings3\bin\Debug\Greetings3.exe.config
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\kryan4\In Class Tutorials\Greetings3\Greetings3\bin\Debug\Greetings3.exe
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\kryan4\In Class Tutorials\Greetings3\Greetings3\bin\Debug\Greetings3.pdb
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\kryan4\In Class Tutorials\Greetings3\Greetings3\bin\Debug\Greetings3.xml
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\kryan4\In Class Tutorials\Greetings3\Greetings3\obj\Debug\Greetings3.vbprojResolveAssemblyReference.cache
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\kryan4\In Class Tutorials\Greetings3\Greetings3\obj\Debug\Greetings3.Greetings3.resources
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\kryan4\In Class Tutorials\Greetings3\Greetings3\obj\Debug\Greetings3.Resources.resources
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\kryan4\In Class Tutorials\Greetings3\Greetings3\obj\Debug\Greetings3.vbproj.GenerateResource.Cache
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\kryan4\In Class Tutorials\Greetings3\Greetings3\obj\Debug\Greetings3.exe
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\kryan4\In Class Tutorials\Greetings3\Greetings3\obj\Debug\Greetings3.xml
+I:\ComClasses\2020SP\mbliss\2020SP-LEC-COM-150-S03\kryan4\In Class Tutorials\Greetings3\Greetings3\obj\Debug\Greetings3.pdb
