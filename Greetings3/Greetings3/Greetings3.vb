@@ -2,21 +2,24 @@
 
 
     Private Sub btnClick_Click(sender As Object, e As EventArgs) Handles btnClick.Click
-        'Take value from name text box and print in messagebox
-        'MessageBox.Show(txtName.Text)
 
-        'Take value from Name textbox and print to txtOut
-        txtOut.Text = "Good Evening " & txtName.Text & ControlChars.CrLf
-        txtOut.Text = txtOut.Text & " How are you?"
-
-
-
-        'Clear txtName value
-        txtName.Clear()
-
-
-
-
+        ' Print greetings to listbox
+        lstOut.Items.Add("Good Evening " & txtName.Text)
+        lstOut.Items.Add("How are you?")
 
     End Sub
+
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        'Clear txtName value
+        txtName.Clear()
+        lstOut.Items.Clear()
+    End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        'when user exits the program
+        Beep()
+        Application.Exit()
+    End Sub
+
+
 End Class
