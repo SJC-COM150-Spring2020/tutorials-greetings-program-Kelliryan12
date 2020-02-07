@@ -25,6 +25,8 @@ Partial Class Greetings3
         Me.btnClick = New System.Windows.Forms.Button()
         Me.txtName = New System.Windows.Forms.TextBox()
         Me.lblHeading = New System.Windows.Forms.Label()
+        Me.lblName = New System.Windows.Forms.Label()
+        Me.txtOut = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'btnClick
@@ -32,9 +34,9 @@ Partial Class Greetings3
         Me.btnClick.BackColor = System.Drawing.Color.CornflowerBlue
         Me.btnClick.Font = New System.Drawing.Font("Book Antiqua", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnClick.ForeColor = System.Drawing.Color.White
-        Me.btnClick.Location = New System.Drawing.Point(17, 284)
+        Me.btnClick.Location = New System.Drawing.Point(63, 252)
         Me.btnClick.Name = "btnClick"
-        Me.btnClick.Size = New System.Drawing.Size(173, 42)
+        Me.btnClick.Size = New System.Drawing.Size(135, 41)
         Me.btnClick.TabIndex = 0
         Me.btnClick.Text = "Click Me!"
         Me.btnClick.UseVisualStyleBackColor = False
@@ -43,7 +45,7 @@ Partial Class Greetings3
         '
         Me.txtName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtName.Font = New System.Drawing.Font("Book Antiqua", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtName.Location = New System.Drawing.Point(17, 230)
+        Me.txtName.Location = New System.Drawing.Point(63, 177)
         Me.txtName.Name = "txtName"
         Me.txtName.Size = New System.Drawing.Size(191, 33)
         Me.txtName.TabIndex = 1
@@ -52,11 +54,30 @@ Partial Class Greetings3
         '
         Me.lblHeading.AutoSize = True
         Me.lblHeading.Font = New System.Drawing.Font("Book Antiqua", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblHeading.Location = New System.Drawing.Point(12, 28)
+        Me.lblHeading.Location = New System.Drawing.Point(58, 28)
         Me.lblHeading.Name = "lblHeading"
         Me.lblHeading.Size = New System.Drawing.Size(196, 26)
         Me.lblHeading.TabIndex = 2
         Me.lblHeading.Text = "Greetings Program"
+        '
+        'lblName
+        '
+        Me.lblName.AutoSize = True
+        Me.lblName.Font = New System.Drawing.Font("Book Antiqua", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName.Location = New System.Drawing.Point(58, 134)
+        Me.lblName.Name = "lblName"
+        Me.lblName.Size = New System.Drawing.Size(180, 26)
+        Me.lblName.TabIndex = 3
+        Me.lblName.Text = "Enter Your Name "
+        '
+        'txtOut
+        '
+        Me.txtOut.Font = New System.Drawing.Font("Book Antiqua", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtOut.Location = New System.Drawing.Point(63, 339)
+        Me.txtOut.Multiline = True
+        Me.txtOut.Name = "txtOut"
+        Me.txtOut.Size = New System.Drawing.Size(318, 81)
+        Me.txtOut.TabIndex = 4
         '
         'Greetings3
         '
@@ -64,6 +85,8 @@ Partial Class Greetings3
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(547, 498)
+        Me.Controls.Add(Me.txtOut)
+        Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.lblHeading)
         Me.Controls.Add(Me.txtName)
         Me.Controls.Add(Me.btnClick)
@@ -77,4 +100,6 @@ Partial Class Greetings3
     Friend WithEvents btnClick As Button
     Friend WithEvents txtName As TextBox
     Friend WithEvents lblHeading As Label
+    Friend WithEvents lblName As Label
+    Friend WithEvents txtOut As TextBox
 End Class
